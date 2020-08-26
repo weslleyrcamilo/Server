@@ -321,6 +321,7 @@ BOOL WINAPI ConnectionThread (LPVOID param)
 					closesocket(hClientSocket);
 					ChangeText(STATUS_BOX, "Client has disconnected\n");
 					break;
+
 					return TRUE;
 
 				}
